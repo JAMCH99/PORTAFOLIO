@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="hhttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>PORTAFOLIO</title>
 </head>
 <body>
     <nav class="nav">
         <ul class="lista">
-            <a href="#"> Sobre de mi</a>
-            <a href="#"> Habilidades</a>
-            <a href="#"> Proyectos</a>          
+            <a class="ab" href="#sobre"> Sobre de mi</a>
+            <a class="ab" href="#skills"> Habilidades</a>
+            <a class="ab" href="#proyectos"> Proyectos</a>          
         </ul>
         <div class="contact">
              <div class="cont">
-                <a id="con" href="#">Contáctame</a>
+                <a id="con" href="#contacto">Contáctame</a>
             </div>
         </div>
     </nav>
     <div class="cuerpo">
-    <section>
+    <section id="sobre">
         <div class="information">
             <div class="soy">
-                    <h3>
+                    <h3 style="font-size: 30px;">
                         Hola, soy
                     </h3><br><br>
-                    <h1>
+                    <h1 style="font-size: 40px;">
                         Johnatan Mamani Chaiña
                     </h1>
                     <br>
-                    <h4>
+                    <h4 style="font-size: 20px;">
                         Desallorrador Backend/Frontend
                     </h4>
             </div>
@@ -39,23 +40,23 @@
             </div>
         </div>
         <div class="sobre_mi">
-            <h1 style="text-align: left; Color:rgb(160, 160, 171);">SOBRE MI</h1>
+            <h1 style="text-align: left; Color:rgb(160, 160, 171);"><b>SOBRE MI</b></h1>
             <span>S</span>oy estudiante de Ingeniería en Sistemas Informáticos. Siempre estoy buscando aprender cada día más a través de diversos métodos y fuentes de estudio y así poder  consolidarme en una empresa que me otorgue experiencia laboral aplicando mis
              conocimientos y aprendiendo a futuro así aportando continuamente con mi labor para dicha entidad, mejorando como persona y profesional.
         </div>
         <div class="contenedor">
 
             <div class="titulo-skills">
-                SKILLS
+                <b>HABILIDADES</b>
             </div>
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills">
 
             <div class="herramientas">
                 <div class="texto">
-                <h1>USANDO AHORA</h1>
+                <h1><b>USANDO AHORA</b></h1>
                 </div>
 
                 <div class="logos">
@@ -101,7 +102,7 @@
                 </div>
 
                     <div class="texto">
-                    <h1>APRENDIENDO</h1>
+                    <h1><b>APRENDIENDO</b></h1>
                     </div>
     
                     <div class="logos">
@@ -138,7 +139,7 @@
                         </div>
                     </div>
                     <div class="texto">
-                        <h1>OTRAS HABILIDADES</h1>
+                        <h1> <b>OTRAS HABILIDADES</b></h1>
                         </div>
         
                         <div class="logos">
@@ -155,10 +156,10 @@
             </div>
     </section>
    
-    <section class="portfolio">
+    <section class="portfolio" id="proyectos">
         <div class="contenedor">      
             <div class="titulo-skills">
-                PROYECTOS
+                <b>PROYECTOS</b>
             </div> 
         </div>
             <div class="logos">
@@ -179,7 +180,7 @@
 
                 <div class="card">
                     <div class="imagen">
-                        <img src="./imagenes/Captura de pantalla 2024-07-10 160120.png" alt="">
+                        <img src="./imagenes/Captura de pantalla 2024-07-11 134059.png" alt="">
                     </div>
                     <div class="card-titulo">
                        TIENDA ONLINE
@@ -193,13 +194,13 @@
                 </div>
                 <div class="card">
                     <div class="imagen">
-                        <img src="./imagenes/Captura de pantalla 2024-07-10 160120.png" alt="">
+                        <img src="./imagenes/Captura de pantalla 2024-07-11 134833.png" alt="">
                     </div>
                     <div class="card-titulo">
-                        SISTEMA DE VENTAS
+                        SISTEMA DE COMEDOR
                     </div>
                     <div class="card-descripcion">
-                        Es un sistema de ventas realizado pricipalmente con el leguaje de programación de C# y SQLServer como base de datos,
+                        Es un sistema realizado para un comedor popular realizado pricipalmente con el leguaje de programación de C# y SQLServer como base de datos,
                         también con el uso de la librerias y paquetes de terceros.
                     </div>
 
@@ -207,20 +208,61 @@
                 </div>
                 <div class="card">
                     <div class="imagen">
-                        <img src="./imagenes/Captura de pantalla 2024-07-10 160120.png" alt="">
+                        <img src="./imagenes/Captura de pantalla 2024-07-11 140117.png" alt="">
                     </div>
                     <div class="card-titulo">
-                        SISTEMA DE VENTAS
+                        SISTEMA BANCARIO
                     </div>
                     <div class="card-descripcion">
-                        Es un sistema de ventas realizado pricipalmente con el leguaje de programación de C# y SQLServer como base de datos,
-                        también con el uso de la librerias y paquetes de terceros.
+                        Es un sistema bancario básico realizado con C# basado en la programación orientada a obejetos
+                        que permite añadir fondos, transferir y retirar de una cuenta de ahrro o una cuenta corriente
                     </div>
 
                     <a class="card-boton" href="#">Ver</a>
                 </div>
                 
             </div>
+    </section>
+    <section class="contact" id="contacto">
+        <div class="contenedor">      
+            <div class="titulo-skills">
+                <b>CONTACTO</b>
+            </div> 
+        </div>
+        <div class="cont-form">
+
+            <div class="form">
+                <div class="caja">
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="caja">
+                    <input type="email" placeholder="Correo">
+                </div>
+                <div class="caja">
+                    <input type="text" placeholder="Teléfono">
+                </div>
+                <div class="caja">
+                    <textarea name="" id="" rows="7" cols="40"></textarea>
+                </div>
+                <a class="enviar" href="">Enviar</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="iconos">
+            <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 12.067C0 18.033 4.333 22.994 10 24v-8.667H7V12h3V9.333c0-3 1.933-4.666 4.667-4.666.866 0 1.8.133 2.666.266V8H15.8c-1.467 0-1.8.733-1.8 1.667V12h3.2l-.533 3.333H14V24c5.667-1.006 10-5.966 10-11.933C24 5.43 18.6 0 12 0S0 5.43 0 12.067z" clip-rule="evenodd"></path>
+              </svg>
+              <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" clip-rule="evenodd"></path>
+              </svg>
+              <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-3 5a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z" clip-rule="evenodd"></path>
+                <path d="M18 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"></path>
+                <path fill-rule="evenodd" d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5Zm14 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Z" clip-rule="evenodd"></path>
+              </svg>
+        </div>
+            &COPY; Johnatan Mamani Chaiña
     </section>
     </div>
 </body>

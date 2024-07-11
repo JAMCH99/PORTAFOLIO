@@ -11,6 +11,9 @@
     font-family: Cambria;
     color: aliceblue;
 }
+.ab:hover{
+    color: rgb(19, 88, 149);
+}
 .nav .contact{
     
     padding: 3px 5px;
@@ -37,7 +40,7 @@
     padding-top: 5px;
 }
 .cuerpo{
-    background-color: rgb(183, 183, 180);
+    background-color: rgb(240, 240, 221);
     margin: 40px 70px;
     display: inline-block;
 }
@@ -115,12 +118,13 @@ span{
     padding: 10px 10px;
 }
 .imagen img{
-    max-width: 200px;
+    max-width: 250px;
     max-height: 200px;
     min-height: 200px;
     object-fit: cover; 
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: -2px 3px 10px rgb(220, 213, 213);
 }
 .texto{
     margin-top: 30px;
@@ -136,7 +140,8 @@ span{
     background-color: rgb(30, 28, 28);
     padding: 10px;
     border-radius: 15px;
-    max-width:350px;
+    max-width:500px;
+    box-shadow: -2px 3px 10px rgb(82, 80, 26);
 }
 .card-titulo{
     color: rgb(209, 72, 26);
@@ -157,6 +162,64 @@ span{
 }
 .card-boton:hover{
     background-color: rgb(240, 240, 240);
+    color: black;    
+}
+.cont-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    font-size: 1.5rem;
+    padding:4px 7px;
+    margin: 10px;
+    border: none;
+    box-shadow: -2px 3px 10px black;
+}
+textarea{
+    font-size: 20px;
+    resize: none;
+    padding: 10px;
+    max-width:320px ;
+    margin-top: 15px;
+    border: none;
+    box-shadow: -2px 3px 10px black;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.iconos{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.enviar{
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 7px 10px;
     color: black;
-    
+}
+.enviar:hover{
+    background-color: rgb(7, 7, 7);
+    color: blanchedalmond;
+}
+@media (max-width:500px){
+    .cuerpo{
+        margin:0;
+    }
 }
